@@ -1,0 +1,95 @@
+INFO 2023-08-15 20:47:07,988 autoreload 5840 140704501806656 Watching for file changes with StatReloader
+INFO 2023-08-15 20:47:19,910 views 5840 123145458876416 coinplay requested; Coin side: avers
+INFO 2023-08-15 20:47:19,910 basehttp 5840 123145458876416 "GET /games/coinplay/ HTTP/1.1" 200 16
+INFO 2023-08-15 20:47:20,640 views 5840 123145458876416 coinplay requested; Coin side: avers
+INFO 2023-08-15 20:47:20,641 basehttp 5840 123145458876416 "GET /games/coinplay/ HTTP/1.1" 200 16
+INFO 2023-08-15 20:47:26,574 views 5840 123145458876416 index accessed
+INFO 2023-08-15 20:47:26,574 basehttp 5840 123145458876416 "GET / HTTP/1.1" 200 13
+INFO 2023-08-15 20:47:32,557 views 5840 123145458876416 coinplay requested; Coin side: revers
+INFO 2023-08-15 20:47:32,558 basehttp 5840 123145458876416 "GET /games/coinplay/ HTTP/1.1" 200 17
+INFO 2023-08-15 20:47:35,055 views 5840 123145458876416 coinplay requested; Coin side: avers
+INFO 2023-08-15 20:47:35,056 basehttp 5840 123145458876416 "GET /games/coinplay/ HTTP/1.1" 200 16
+INFO 2023-08-15 20:47:35,658 views 5840 123145458876416 coinplay requested; Coin side: avers
+INFO 2023-08-15 20:47:35,658 basehttp 5840 123145458876416 "GET /games/coinplay/ HTTP/1.1" 200 16
+INFO 2023-08-15 20:47:42,578 views 5840 123145458876416 diceplay requested; Cube side: 6
+INFO 2023-08-15 20:47:42,579 basehttp 5840 123145458876416 "GET /games/diceplay/ HTTP/1.1" 200 12
+INFO 2023-08-15 20:47:43,829 views 5840 123145458876416 diceplay requested; Cube side: 2
+INFO 2023-08-15 20:47:43,829 basehttp 5840 123145458876416 "GET /games/diceplay/ HTTP/1.1" 200 12
+INFO 2023-08-15 20:47:44,432 views 5840 123145458876416 diceplay requested; Cube side: 6
+INFO 2023-08-15 20:47:44,433 basehttp 5840 123145458876416 "GET /games/diceplay/ HTTP/1.1" 200 12
+INFO 2023-08-15 20:47:44,952 views 5840 123145458876416 diceplay requested; Cube side: 5
+INFO 2023-08-15 20:47:44,953 basehttp 5840 123145458876416 "GET /games/diceplay/ HTTP/1.1" 200 12
+INFO 2023-08-15 20:47:52,143 views 5840 123145458876416 randomizer requested; Random number: 75
+INFO 2023-08-15 20:47:52,143 basehttp 5840 123145458876416 "GET /games/randomizer/ HTTP/1.1" 200 17
+INFO 2023-08-15 20:47:54,148 views 5840 123145458876416 randomizer requested; Random number: 4
+INFO 2023-08-15 20:47:54,148 basehttp 5840 123145458876416 "GET /games/randomizer/ HTTP/1.1" 200 16
+INFO 2023-08-15 20:47:54,640 views 5840 123145458876416 randomizer requested; Random number: 75
+INFO 2023-08-15 20:47:54,640 basehttp 5840 123145458876416 "GET /games/randomizer/ HTTP/1.1" 200 17
+INFO 2023-08-15 20:53:35,293 autoreload 5840 140704501806656 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-08-15 20:53:36,507 autoreload 5989 140704501806656 Watching for file changes with StatReloader
+INFO 2023-08-15 20:54:00,039 autoreload 5989 140704501806656 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-08-15 20:54:01,283 autoreload 6004 140704501806656 Watching for file changes with StatReloader
+INFO 2023-08-15 20:54:06,581 autoreload 6004 140704501806656 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-08-15 20:54:07,732 autoreload 6010 140704501806656 Watching for file changes with StatReloader
+INFO 2023-08-15 20:54:49,530 autoreload 6010 140704501806656 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-08-15 20:54:50,602 autoreload 6033 140704501806656 Watching for file changes with StatReloader
+INFO 2023-08-15 20:55:02,979 autoreload 6033 140704501806656 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-08-15 20:55:04,157 autoreload 6042 140704501806656 Watching for file changes with StatReloader
+INFO 2023-08-15 20:55:42,959 autoreload 6042 140704501806656 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-08-15 20:55:44,436 autoreload 6072 140704501806656 Watching for file changes with StatReloader
+INFO 2023-08-15 20:56:45,539 autoreload 6072 140704501806656 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-08-15 20:56:46,775 autoreload 6114 140704501806656 Watching for file changes with StatReloader
+INFO 2023-08-15 20:58:12,173 autoreload 6114 140704501806656 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-08-15 20:58:13,516 autoreload 6163 140704501806656 Watching for file changes with StatReloader
+INFO 2023-08-15 20:58:23,468 views 6163 123145458049024 index accessed
+INFO 2023-08-15 20:58:23,469 basehttp 6163 123145458049024 "GET / HTTP/1.1" 200 13
+WARNING 2023-08-15 20:58:29,763 log 6163 123145458049024 Not Found: /coin
+WARNING 2023-08-15 20:58:29,763 basehttp 6163 123145458049024 "GET /coin HTTP/1.1" 404 2362
+INFO 2023-08-15 20:58:48,077 views 6163 123145458049024 coinplay requested; Coin side: avers
+INFO 2023-08-15 20:58:48,077 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 16
+INFO 2023-08-15 20:58:54,917 views 6163 123145458049024 coinplay requested; Coin side: revers
+INFO 2023-08-15 20:58:54,917 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 17
+INFO 2023-08-15 20:58:55,641 views 6163 123145458049024 coinplay requested; Coin side: revers
+INFO 2023-08-15 20:58:55,642 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 17
+INFO 2023-08-15 20:58:56,342 views 6163 123145458049024 coinplay requested; Coin side: avers
+INFO 2023-08-15 20:58:56,343 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 16
+INFO 2023-08-15 20:58:56,931 views 6163 123145458049024 coinplay requested; Coin side: avers
+INFO 2023-08-15 20:58:56,931 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 16
+INFO 2023-08-15 20:58:57,483 views 6163 123145458049024 coinplay requested; Coin side: avers
+INFO 2023-08-15 20:58:57,484 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 16
+INFO 2023-08-15 20:58:58,055 views 6163 123145458049024 coinplay requested; Coin side: revers
+INFO 2023-08-15 20:58:58,056 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 17
+INFO 2023-08-15 20:58:58,675 views 6163 123145458049024 coinplay requested; Coin side: revers
+INFO 2023-08-15 20:58:58,676 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 17
+ERROR 2023-08-15 20:58:59,225 views 6163 123145458049024 Error occurred: {exc}
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py", line 11, in coin
+    side = ['avers', 'revers'][randint(0, 2)]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+IndexError: list index out of range
+INFO 2023-08-15 20:58:59,252 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 9
+ERROR 2023-08-15 20:58:59,744 views 6163 123145458049024 Error occurred: {exc}
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py", line 11, in coin
+    side = ['avers', 'revers'][randint(0, 2)]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+IndexError: list index out of range
+INFO 2023-08-15 20:58:59,748 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 9
+ERROR 2023-08-15 20:59:00,934 views 6163 123145458049024 Error occurred: {exc}
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py", line 11, in coin
+    side = ['avers', 'revers'][randint(0, 2)]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+IndexError: list index out of range
+INFO 2023-08-15 20:59:00,935 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 9
+INFO 2023-08-15 20:59:01,840 views 6163 123145458049024 coinplay requested; Coin side: revers
+INFO 2023-08-15 20:59:01,840 basehttp 6163 123145458049024 "GET /games/coinplay/ HTTP/1.1" 200 17
+INFO 2023-08-15 21:00:17,557 autoreload 6163 140704501806656 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-08-15 21:00:18,679 autoreload 6234 140704501806656 Watching for file changes with StatReloader
+ERROR 2023-08-15 21:00:18,893 views 6234 123145526259712 Error occurred: list index out of range
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py", line 11, in coin
+    side = ['avers', 'revers'][randint(0, 2)]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+IndexError: list index out of range
+INFO 2023-08-15 21:00:18,896 basehttp 6234 123145526259712 "GET /games/coinplay/ HTTP/1.1" 200 9
