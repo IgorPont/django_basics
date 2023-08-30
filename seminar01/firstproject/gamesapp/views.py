@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 def coin(request):
     try:
-        side = ['avers', 'revers'][randint(0, 2)]
+        side = ['avers', 'revers'][randint(0, 2)] # до двух, чтобы отловить ошибку
     except IndexError as exc:
         logger.exception(f'Error occurred: {exc}')
         return HttpResponse(f"Coin lost")
