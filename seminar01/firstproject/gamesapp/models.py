@@ -23,27 +23,3 @@ class CoinPlay(models.Model):
     def add_throws(value):
         sides = ('obverse', 'reverse')
         CoinPlay.throws.append((dt.now(), sides[value]))
-
-
-class Author(models.Model):
-    name = models.CharField(max_length=100)
-    surname = models.CharField(max_length=100)
-    email = models.EmailField(max_length=100)
-    biography = models.TextField()
-    birthday = models.DateField()
-
-    def get_fullname(self):
-        return f'{self.name} {self.surname}'
-
-
-class Article(models.Model):
-    title = models.CharField(max_length=200)
-    content = models.TextField()
-    public_date = models.DateField(auto_now=True)
-    author = models.ForeignKey(Author, on_delete=models.CASCADE)
-    category = models.CharField(max_length=100)
-    views = models.IntegerField(default=0)
-    published = models.BooleanField(default=False)
-
-    def __str__(self):
-        return f'{self.title} {self.published} {self.public_date}'

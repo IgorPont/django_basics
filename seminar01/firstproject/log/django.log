@@ -464,3 +464,994 @@ INFO 2023-08-31 19:21:52,921 views 4377 123145593327616 index accessed
 INFO 2023-08-31 19:21:52,922 basehttp 4377 123145593327616 "GET / HTTP/1.1" 200 13
 WARNING 2023-08-31 19:21:53,888 log 4377 123145593327616 Not Found: /favicon.ico
 WARNING 2023-08-31 19:21:53,889 basehttp 4377 123145593327616 "GET /favicon.ico HTTP/1.1" 404 2492
+INFO 2023-09-06 18:19:12,823 autoreload 2510 140704579491584 Watching for file changes with StatReloader
+INFO 2023-09-06 18:19:15,679 views 2510 123145492271104 index accessed
+INFO 2023-09-06 18:19:15,680 basehttp 2510 123145492271104 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-06 18:19:16,417 log 2510 123145492271104 Not Found: /favicon.ico
+WARNING 2023-09-06 18:19:16,418 basehttp 2510 123145492271104 "GET /favicon.ico HTTP/1.1" 404 2492
+INFO 2023-09-06 18:20:20,030 views 2510 123145492271104 Page index.html loaded
+INFO 2023-09-06 18:20:20,068 basehttp 2510 123145492271104 "GET /about_me/ HTTP/1.1" 200 1810
+WARNING 2023-09-06 18:20:20,134 log 2510 123145492271104 Not Found: /about_me/style.css
+WARNING 2023-09-06 18:20:20,136 log 2510 123145509060608 Not Found: /about_me/img/vk.svg
+WARNING 2023-09-06 18:20:20,136 basehttp 2510 123145492271104 "GET /about_me/style.css HTTP/1.1" 404 2923
+WARNING 2023-09-06 18:20:20,137 basehttp 2510 123145509060608 "GET /about_me/img/vk.svg HTTP/1.1" 404 2926
+INFO 2023-09-06 18:20:50,472 views 2510 123145509060608 Page index.html loaded
+INFO 2023-09-06 18:20:50,473 basehttp 2510 123145509060608 "GET /about_me/ HTTP/1.1" 200 1810
+WARNING 2023-09-06 18:20:50,526 log 2510 123145509060608 Not Found: /about_me/style.css
+WARNING 2023-09-06 18:20:50,529 basehttp 2510 123145509060608 "GET /about_me/style.css HTTP/1.1" 404 2923
+WARNING 2023-09-06 18:20:50,531 log 2510 123145492271104 Not Found: /about_me/img/vk.svg
+WARNING 2023-09-06 18:20:50,532 basehttp 2510 123145492271104 "GET /about_me/img/vk.svg HTTP/1.1" 404 2926
+INFO 2023-09-06 18:21:34,771 views 2510 123145492271104 Page about.html loaded
+INFO 2023-09-06 18:21:34,774 basehttp 2510 123145492271104 "GET /about_me/about/ HTTP/1.1" 200 1999
+WARNING 2023-09-06 18:21:34,849 log 2510 123145492271104 Not Found: /about_me/about/style.css
+WARNING 2023-09-06 18:21:34,850 basehttp 2510 123145492271104 "GET /about_me/about/style.css HTTP/1.1" 404 2941
+WARNING 2023-09-06 18:21:34,852 log 2510 123145509060608 Not Found: /about_me/img/student.jpg
+WARNING 2023-09-06 18:21:34,854 log 2510 123145525850112 Not Found: /about_me/about/img/vk.svg
+WARNING 2023-09-06 18:21:34,855 basehttp 2510 123145525850112 "GET /about_me/about/img/vk.svg HTTP/1.1" 404 2944
+WARNING 2023-09-06 18:21:34,855 basehttp 2510 123145509060608 "GET /about_me/img/student.jpg HTTP/1.1" 404 2941
+INFO 2023-09-06 18:21:48,026 basehttp 2510 123145525850112 "GET /about_me/form HTTP/1.1" 301 0
+INFO 2023-09-06 18:21:48,043 views 2510 123145509060608 Page form.html loaded
+INFO 2023-09-06 18:21:48,045 basehttp 2510 123145509060608 "GET /about_me/form/ HTTP/1.1" 200 1127
+WARNING 2023-09-06 18:21:48,107 log 2510 123145509060608 Not Found: /about_me/form/style.css
+WARNING 2023-09-06 18:21:48,108 log 2510 123145492271104 Not Found: /about_me/form/img/vk.svg
+WARNING 2023-09-06 18:21:48,108 basehttp 2510 123145509060608 "GET /about_me/form/style.css HTTP/1.1" 404 2938
+WARNING 2023-09-06 18:21:48,109 basehttp 2510 123145492271104 "GET /about_me/form/img/vk.svg HTTP/1.1" 404 2941
+INFO 2023-09-06 18:21:51,566 views 2510 123145492271104 Page form.html loaded
+INFO 2023-09-06 18:21:51,567 basehttp 2510 123145492271104 "GET /about_me/form/? HTTP/1.1" 200 1127
+WARNING 2023-09-06 18:21:51,618 log 2510 123145492271104 Not Found: /about_me/form/style.css
+WARNING 2023-09-06 18:21:51,621 basehttp 2510 123145492271104 "GET /about_me/form/style.css HTTP/1.1" 404 2938
+INFO 2023-09-06 18:21:51,622 basehttp 2510 123145492271104 - Broken pipe from ('127.0.0.1', 50914)
+WARNING 2023-09-06 18:21:51,624 log 2510 123145509060608 Not Found: /about_me/form/img/vk.svg
+WARNING 2023-09-06 18:21:51,625 basehttp 2510 123145509060608 "GET /about_me/form/img/vk.svg HTTP/1.1" 404 2941
+INFO 2023-09-06 18:21:53,367 views 2510 123145509060608 Page form.html loaded
+INFO 2023-09-06 18:21:53,368 basehttp 2510 123145509060608 "GET /about_me/form/? HTTP/1.1" 200 1127
+WARNING 2023-09-06 18:21:53,416 log 2510 123145509060608 Not Found: /about_me/form/style.css
+WARNING 2023-09-06 18:21:53,416 basehttp 2510 123145509060608 "GET /about_me/form/style.css HTTP/1.1" 404 2938
+WARNING 2023-09-06 18:21:53,424 log 2510 123145492271104 Not Found: /about_me/form/img/vk.svg
+WARNING 2023-09-06 18:21:53,425 basehttp 2510 123145492271104 "GET /about_me/form/img/vk.svg HTTP/1.1" 404 2941
+INFO 2023-09-06 18:29:03,995 views 2510 123145492271104 Page form.html loaded
+INFO 2023-09-06 18:29:04,001 basehttp 2510 123145492271104 "GET /about_me/form/? HTTP/1.1" 200 1193
+WARNING 2023-09-06 18:29:04,054 log 2510 123145492271104 Not Found: /about_me/form/style.css
+WARNING 2023-09-06 18:29:04,055 basehttp 2510 123145492271104 "GET /about_me/form/style.css HTTP/1.1" 404 2938
+WARNING 2023-09-06 18:29:04,058 log 2510 123145509060608 Not Found: /about_me/form/img/vk.svg
+WARNING 2023-09-06 18:29:04,058 basehttp 2510 123145509060608 "GET /about_me/form/img/vk.svg HTTP/1.1" 404 2941
+WARNING 2023-09-06 18:29:06,421 log 2510 123145509060608 Not Found: /about_me/form/about_me_app/index.html
+WARNING 2023-09-06 18:29:06,421 basehttp 2510 123145509060608 "GET /about_me/form/about_me_app/index.html HTTP/1.1" 404 2980
+WARNING 2023-09-06 18:29:42,073 log 2510 123145509060608 Not Found: /about_me/form/about_me_app/about.html
+WARNING 2023-09-06 18:29:42,074 basehttp 2510 123145509060608 "GET /about_me/form/about_me_app/about.html HTTP/1.1" 404 2980
+WARNING 2023-09-06 18:53:25,075 log 2510 123145492271104 Not Found: /about_me/main
+WARNING 2023-09-06 18:53:25,076 basehttp 2510 123145492271104 "GET /about_me/main HTTP/1.1" 404 2908
+WARNING 2023-09-06 18:53:33,374 log 2510 123145492271104 Not Found: /about_me/main/
+WARNING 2023-09-06 18:53:33,374 basehttp 2510 123145492271104 "GET /about_me/main/ HTTP/1.1" 404 2911
+WARNING 2023-09-06 18:53:43,251 log 2510 123145492271104 Not Found: /about_me/index
+WARNING 2023-09-06 18:53:43,252 basehttp 2510 123145492271104 "GET /about_me/index HTTP/1.1" 404 2911
+INFO 2023-09-06 18:53:54,714 views 2510 123145492271104 Page index.html loaded
+ERROR 2023-09-06 18:53:54,783 log 2510 123145492271104 Internal Server Error: /about_me/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/about_me_app/views.py", line 11, in main
+    return render(request, template_name='about_me_app/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 484, in parse
+    raise self.error(token, e)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('about_me_app/main')' from 'url_for('about_me_app/main')'
+ERROR 2023-09-06 18:53:54,796 basehttp 2510 123145492271104 "GET /about_me/ HTTP/1.1" 500 163860
+INFO 2023-09-06 18:54:41,841 views 2510 123145492271104 Page index.html loaded
+ERROR 2023-09-06 18:54:41,906 log 2510 123145492271104 Internal Server Error: /about_me/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/about_me_app/views.py", line 11, in main
+    return render(request, template_name='about_me_app/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 484, in parse
+    raise self.error(token, e)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('about_me_app/index')' from 'url_for('about_me_app/index')'
+ERROR 2023-09-06 18:54:41,912 basehttp 2510 123145492271104 "GET /about_me/ HTTP/1.1" 500 164044
+INFO 2023-09-06 18:54:57,848 views 2510 123145492271104 Page index.html loaded
+ERROR 2023-09-06 18:54:57,896 log 2510 123145492271104 Internal Server Error: /about_me/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/about_me_app/views.py", line 11, in main
+    return render(request, template_name='about_me_app/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 484, in parse
+    raise self.error(token, e)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('index')' from 'url_for('index')'
+ERROR 2023-09-06 18:54:57,901 basehttp 2510 123145492271104 "GET /about_me/ HTTP/1.1" 500 163772
+INFO 2023-09-06 18:55:12,205 views 2510 123145492271104 Page index.html loaded
+ERROR 2023-09-06 18:55:12,252 log 2510 123145492271104 Internal Server Error: /about_me/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/about_me_app/views.py", line 11, in main
+    return render(request, template_name='about_me_app/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 484, in parse
+    raise self.error(token, e)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('main')' from 'url_for('main')'
+ERROR 2023-09-06 18:55:12,257 basehttp 2510 123145492271104 "GET /about_me/ HTTP/1.1" 500 163750
+INFO 2023-09-06 18:55:22,465 views 2510 123145492271104 Page index.html loaded
+INFO 2023-09-06 18:55:22,475 basehttp 2510 123145492271104 "GET /about_me/ HTTP/1.1" 200 1820
+WARNING 2023-09-06 18:55:22,536 log 2510 123145492271104 Not Found: /about_me/style.css
+WARNING 2023-09-06 18:55:22,537 basehttp 2510 123145492271104 "GET /about_me/style.css HTTP/1.1" 404 2923
+WARNING 2023-09-06 18:55:22,539 log 2510 123145509060608 Not Found: /about_me/img/vk.svg
+WARNING 2023-09-06 18:55:22,540 basehttp 2510 123145509060608 "GET /about_me/img/vk.svg HTTP/1.1" 404 2926
+WARNING 2023-09-06 20:25:47,344 log 2510 123145492271104 Not Found: /favicon.ico
+WARNING 2023-09-06 20:25:47,344 basehttp 2510 123145492271104 "GET /favicon.ico HTTP/1.1" 404 2492
+INFO 2023-09-06 20:48:45,226 views 2510 123145492271104 Page index.html loaded
+INFO 2023-09-06 20:48:45,234 basehttp 2510 123145492271104 "GET /about_me/ HTTP/1.1" 200 1810
+WARNING 2023-09-06 20:48:45,286 log 2510 123145492271104 Not Found: /about_me/style.css
+WARNING 2023-09-06 20:48:45,287 log 2510 123145509060608 Not Found: /about_me/img/vk.svg
+WARNING 2023-09-06 20:48:45,287 basehttp 2510 123145492271104 "GET /about_me/style.css HTTP/1.1" 404 2923
+WARNING 2023-09-06 20:48:45,288 basehttp 2510 123145509060608 "GET /about_me/img/vk.svg HTTP/1.1" 404 2926
+INFO 2023-09-06 20:49:48,890 autoreload 2510 140704579491584 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/about_me_app/views.py changed, reloading.
+INFO 2023-09-07 18:11:32,325 autoreload 3106 140704399644416 Watching for file changes with StatReloader
+INFO 2023-09-07 18:11:33,733 views 3106 123145565962240 index accessed
+INFO 2023-09-07 18:11:33,735 basehttp 3106 123145565962240 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-07 18:11:34,493 log 3106 123145565962240 Not Found: /favicon.ico
+WARNING 2023-09-07 18:11:34,494 basehttp 3106 123145565962240 "GET /favicon.ico HTTP/1.1" 404 2492
+WARNING 2023-09-07 18:11:49,739 log 3106 123145565962240 Not Found: /games/
+WARNING 2023-09-07 18:11:49,739 basehttp 3106 123145565962240 "GET /games/ HTTP/1.1" 404 2969
+INFO 2023-09-07 18:20:03,213 autoreload 3106 140704399644416 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/app001/urls.py changed, reloading.
+INFO 2023-09-07 18:20:04,116 autoreload 3358 140704399644416 Watching for file changes with StatReloader
+WARNING 2023-09-07 18:20:14,716 log 3358 123145489821696 Not Found: /games/
+WARNING 2023-09-07 18:20:14,717 basehttp 3358 123145489821696 "GET /games/ HTTP/1.1" 404 2973
+INFO 2023-09-07 18:20:45,133 autoreload 3358 140704399644416 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/app001/urls.py changed, reloading.
+INFO 2023-09-07 18:20:46,186 autoreload 3394 140704399644416 Watching for file changes with StatReloader
+INFO 2023-09-07 19:17:15,967 autoreload 3394 140704399644416 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-09-07 19:17:16,777 autoreload 4367 140704399644416 Watching for file changes with StatReloader
+INFO 2023-09-07 19:21:51,319 autoreload 4367 140704399644416 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-09-07 19:21:52,333 autoreload 4483 140704399644416 Watching for file changes with StatReloader
+INFO 2023-09-07 19:27:47,376 autoreload 4483 140704399644416 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-09-07 19:27:48,391 autoreload 4632 140704399644416 Watching for file changes with StatReloader
+INFO 2023-09-07 19:28:30,292 autoreload 4632 140704399644416 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-09-07 19:28:31,094 autoreload 4658 140704399644416 Watching for file changes with StatReloader
+INFO 2023-09-07 19:32:45,327 autoreload 4658 140704399644416 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-09-07 19:32:45,992 autoreload 4771 140704399644416 Watching for file changes with StatReloader
+INFO 2023-09-07 19:33:13,768 basehttp 4771 123145399148544 "GET /games/coinplay/3 HTTP/1.1" 301 0
+INFO 2023-09-07 19:33:13,789 views 4771 123145415938048 coinplay requested; Coin side: ['avers', 'avers', 'revers']
+INFO 2023-09-07 19:33:13,799 basehttp 4771 123145415938048 "GET /games/coinplay/3/ HTTP/1.1" 200 171
+INFO 2023-09-07 19:34:40,201 autoreload 4771 140704399644416 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-09-07 19:34:41,071 autoreload 4824 140704399644416 Watching for file changes with StatReloader
+INFO 2023-09-07 19:34:45,024 views 4824 123145411653632 coinplay requested; Coin side: ['avers', 'avers', 'revers']
+INFO 2023-09-07 19:34:45,029 basehttp 4824 123145411653632 "GET /games/coinplay/3/ HTTP/1.1" 200 244
+INFO 2023-09-07 19:34:53,004 basehttp 4824 123145411653632 "GET /games/coinplay/5 HTTP/1.1" 301 0
+INFO 2023-09-07 19:34:53,011 views 4824 123145428443136 coinplay requested; Coin side: ['revers', 'revers', 'revers', 'revers', 'revers']
+INFO 2023-09-07 19:34:53,012 basehttp 4824 123145428443136 "GET /games/coinplay/5/ HTTP/1.1" 200 296
+WARNING 2023-09-07 19:35:02,277 log 4824 123145428443136 Not Found: /games/
+WARNING 2023-09-07 19:35:02,277 basehttp 4824 123145428443136 "GET /games/ HTTP/1.1" 404 2973
+WARNING 2023-09-07 19:35:24,484 log 4824 123145428443136 Not Found: /games/
+WARNING 2023-09-07 19:35:24,484 basehttp 4824 123145428443136 "GET /games/ HTTP/1.1" 404 2973
+INFO 2023-09-07 19:35:37,361 basehttp 4824 123145428443136 "GET /games/randomizer/3 HTTP/1.1" 301 0
+INFO 2023-09-07 19:35:37,370 views 4824 123145411653632 randomizer requested; Random number: 15
+ERROR 2023-09-07 19:35:37,419 log 4824 123145411653632 Internal Server Error: /games/randomizer/3/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py", line 34, in random_number
+    return render(request, template_name='gamesapp/games.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'int' object is not iterable
+ERROR 2023-09-07 19:35:37,426 basehttp 4824 123145411653632 "GET /games/randomizer/3/ HTTP/1.1" 500 102018
+INFO 2023-09-07 19:37:16,011 autoreload 4824 140704399644416 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-09-07 19:37:16,755 autoreload 4897 140704399644416 Watching for file changes with StatReloader
+INFO 2023-09-07 19:37:20,154 views 4897 123145523642368 randomizer requested; Random number: [48, 80, 85]
+INFO 2023-09-07 19:37:20,166 basehttp 4897 123145523642368 "GET /games/randomizer/3/ HTTP/1.1" 200 264
+WARNING 2023-09-07 19:37:30,300 log 4897 123145523642368 Not Found: /games/
+WARNING 2023-09-07 19:37:30,300 basehttp 4897 123145523642368 "GET /games/ HTTP/1.1" 404 2973
+INFO 2023-09-07 19:37:43,614 basehttp 4897 123145523642368 "GET /games/diceplay/5 HTTP/1.1" 301 0
+INFO 2023-09-07 19:37:43,623 views 4897 123145540431872 diceplay requested; Cube side: [1, 2, 2, 6, 3]
+INFO 2023-09-07 19:37:43,624 basehttp 4897 123145540431872 "GET /games/diceplay/5/ HTTP/1.1" 200 263
+INFO 2023-09-07 20:07:40,522 autoreload 4897 140704399644416 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-09-07 20:07:41,381 autoreload 5512 140704399644416 Watching for file changes with StatReloader
+INFO 2023-09-10 18:39:19,005 autoreload 3719 140704689149696 Watching for file changes with StatReloader
+WARNING 2023-09-10 18:39:21,111 log 3719 123145563885568 Not Found: /
+WARNING 2023-09-10 18:39:21,113 basehttp 3719 123145563885568 "GET / HTTP/1.1" 404 2553
+WARNING 2023-09-10 18:39:21,774 log 3719 123145563885568 Not Found: /favicon.ico
+WARNING 2023-09-10 18:39:21,775 basehttp 3719 123145563885568 "GET /favicon.ico HTTP/1.1" 404 2604
+WARNING 2023-09-10 18:39:50,914 log 3719 123145563885568 Not Found: /aqrticle/articles/10
+WARNING 2023-09-10 18:39:50,914 basehttp 3719 123145563885568 "GET /aqrticle/articles/10 HTTP/1.1" 404 2631
+INFO 2023-09-10 18:40:00,321 basehttp 3719 123145563885568 "GET /article/articles/10 HTTP/1.1" 301 0
+ERROR 2023-09-10 18:40:00,405 log 3719 123145580675072 Internal Server Error: /article/articles/10/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 15, in get_articles_by_author
+    return render(request, template_name='articlesapp/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 19: 'else', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2023-09-10 18:40:00,414 basehttp 3719 123145580675072 "GET /article/articles/10/ HTTP/1.1" 500 151785
+INFO 2023-09-10 18:40:26,063 basehttp 3719 123145580675072 "GET /article/articles/10/ HTTP/1.1" 200 898
+INFO 2023-09-10 18:41:01,362 basehttp 3719 123145580675072 "GET /article/articles/10/ HTTP/1.1" 200 899
+INFO 2023-09-10 18:41:02,511 basehttp 3719 123145580675072 "GET /article/articles/10/ HTTP/1.1" 200 899
+ERROR 2023-09-10 18:41:19,741 log 3719 123145580675072 Internal Server Error: /article/articles/10/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 15, in get_articles_by_author
+    return render(request, template_name='articlesapp/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 484, in parse
+    raise self.error(token, e)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' author.fullname' from 'title author.fullname'
+ERROR 2023-09-10 18:41:19,744 basehttp 3719 123145580675072 "GET /article/articles/10/ HTTP/1.1" 500 141471
+INFO 2023-09-10 18:41:58,265 basehttp 3719 123145580675072 "GET /article/articles/10/ HTTP/1.1" 200 899
+INFO 2023-09-10 18:44:12,631 basehttp 3719 123145580675072 "GET /article/articles/10/ HTTP/1.1" 200 923
+INFO 2023-09-10 19:19:08,360 autoreload 3719 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 19:19:09,411 autoreload 4571 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:19:19,878 autoreload 4571 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 19:19:20,755 autoreload 4583 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:21:02,779 autoreload 4583 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 19:21:03,610 autoreload 4641 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:28:12,106 autoreload 4805 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:28:29,172 autoreload 4816 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:29:03,343 autoreload 4855 140704689149696 Watching for file changes with StatReloader
+WARNING 2023-09-10 19:29:05,606 log 4855 123145418211328 Not Found: /
+WARNING 2023-09-10 19:29:05,609 basehttp 4855 123145418211328 "GET / HTTP/1.1" 404 2553
+INFO 2023-09-10 19:29:31,138 basehttp 4855 123145418211328 "GET /article/article/10 HTTP/1.1" 301 0
+INFO 2023-09-10 19:29:31,163 basehttp 4855 123145435000832 "GET /article/article/10/ HTTP/1.1" 200 342
+ERROR 2023-09-10 19:29:45,854 log 4855 123145435000832 Internal Server Error: /article/articles/10/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 15, in get_articles_by_author
+    return render(request, template_name='articlesapp/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article' not found. 'article' is not a valid view function or pattern name.
+ERROR 2023-09-10 19:29:45,863 basehttp 4855 123145435000832 "GET /article/articles/10/ HTTP/1.1" 500 152056
+ERROR 2023-09-10 19:31:23,870 log 4855 123145435000832 Internal Server Error: /article/articles/10/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 15, in get_articles_by_author
+    return render(request, template_name='articlesapp/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article' not found. 'article' is not a valid view function or pattern name.
+ERROR 2023-09-10 19:31:23,874 basehttp 4855 123145435000832 "GET /article/articles/10/ HTTP/1.1" 500 152189
+INFO 2023-09-10 19:33:34,867 basehttp 4855 123145435000832 "GET /article/article/10/ HTTP/1.1" 200 342
+INFO 2023-09-10 19:36:09,927 basehttp 4855 123145435000832 "GET /article/article/10/ HTTP/1.1" 200 342
+INFO 2023-09-10 19:36:15,167 basehttp 4855 123145435000832 "GET /article/article/11/ HTTP/1.1" 200 342
+WARNING 2023-09-10 19:36:30,032 log 4855 123145435000832 Not Found: /article/articles
+WARNING 2023-09-10 19:36:30,032 basehttp 4855 123145435000832 "GET /article/articles HTTP/1.1" 404 2937
+ERROR 2023-09-10 19:36:40,784 log 4855 123145435000832 Internal Server Error: /article/articles/10/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 15, in get_articles_by_author
+    return render(request, template_name='articlesapp/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article' not found. 'article' is not a valid view function or pattern name.
+ERROR 2023-09-10 19:36:40,789 basehttp 4855 123145435000832 "GET /article/articles/10/ HTTP/1.1" 500 152052
+INFO 2023-09-10 19:38:22,335 basehttp 4855 123145435000832 "GET /article/articles/10/ HTTP/1.1" 200 1028
+INFO 2023-09-10 19:38:25,303 basehttp 4855 123145435000832 "GET /article/article/88/ HTTP/1.1" 200 342
+INFO 2023-09-10 19:38:32,559 basehttp 4855 123145435000832 "GET /article/article/88/ HTTP/1.1" 200 342
+INFO 2023-09-10 19:38:35,619 basehttp 4855 123145435000832 "GET /article/article/90/ HTTP/1.1" 200 342
+INFO 2023-09-10 19:39:54,135 basehttp 4855 123145435000832 "GET /article/article/90/ HTTP/1.1" 200 349
+INFO 2023-09-10 19:39:57,381 basehttp 4855 123145435000832 "GET /article/article/88/ HTTP/1.1" 200 349
+INFO 2023-09-10 19:41:16,302 basehttp 4855 123145435000832 "GET /article/article/88/ HTTP/1.1" 200 349
+INFO 2023-09-10 19:41:18,043 basehttp 4855 123145435000832 "GET /article/article/88/ HTTP/1.1" 200 349
+INFO 2023-09-10 19:42:59,472 autoreload 4855 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 19:43:00,281 autoreload 5168 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:43:03,425 basehttp 5168 123145462038528 "GET /article/article/88/ HTTP/1.1" 200 1119
+INFO 2023-09-10 19:43:25,286 basehttp 5168 123145462038528 "GET /article/articles/10/ HTTP/1.1" 200 1028
+INFO 2023-09-10 19:43:25,913 basehttp 5168 123145462038528 "GET /article/articles/10/ HTTP/1.1" 200 1028
+INFO 2023-09-10 19:43:28,045 basehttp 5168 123145462038528 "GET /article/article/89/ HTTP/1.1" 200 1229
+INFO 2023-09-10 19:43:33,348 basehttp 5168 123145462038528 "GET /article/article/88/ HTTP/1.1" 200 1119
+INFO 2023-09-10 19:45:17,059 autoreload 5168 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 19:45:17,916 autoreload 5225 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:45:26,820 basehttp 5225 123145536270336 "GET /article/articles/10/ HTTP/1.1" 200 401
+INFO 2023-09-10 19:45:28,764 basehttp 5225 123145536270336 "GET /article/articles/10/ HTTP/1.1" 200 401
+INFO 2023-09-10 19:45:35,799 basehttp 5225 123145536270336 "GET /article/articles/10/ HTTP/1.1" 200 401
+INFO 2023-09-10 19:45:59,006 autoreload 5225 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 19:45:59,727 autoreload 5249 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:46:01,151 basehttp 5249 123145542619136 "GET /article/articles/10/ HTTP/1.1" 200 1028
+INFO 2023-09-10 19:46:03,768 basehttp 5249 123145542619136 "GET /article/article/88/ HTTP/1.1" 200 1119
+INFO 2023-09-10 19:50:18,595 autoreload 5249 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 19:50:19,409 autoreload 5386 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:50:24,760 autoreload 5386 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 19:50:25,761 autoreload 5394 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:52:14,759 autoreload 5394 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 19:52:15,483 autoreload 5461 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:54:13,701 autoreload 5461 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:54:14,595 autoreload 5619 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:54:20,849 autoreload 5619 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:54:21,486 autoreload 5623 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:54:34,797 autoreload 5623 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:54:35,436 autoreload 5635 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:54:48,943 autoreload 5635 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:54:49,534 autoreload 5646 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:55:00,832 autoreload 5646 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:55:01,602 autoreload 5654 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:55:05,862 autoreload 5654 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:55:06,532 autoreload 5663 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:55:13,919 autoreload 5663 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:55:14,530 autoreload 5671 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:55:46,005 autoreload 5671 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:55:46,782 autoreload 5716 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:56:01,300 autoreload 5716 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:56:02,013 autoreload 5727 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:56:08,388 autoreload 5727 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:56:09,227 autoreload 5734 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:56:21,762 autoreload 5734 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:56:22,450 autoreload 5748 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:56:39,801 autoreload 5748 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:56:40,466 autoreload 5760 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:56:50,949 autoreload 5760 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:56:51,544 autoreload 5768 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:56:58,813 autoreload 5768 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:56:59,418 autoreload 5774 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:57:03,677 autoreload 5774 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:57:04,291 autoreload 5782 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:57:12,762 autoreload 5782 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:57:13,405 autoreload 5789 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:57:24,720 autoreload 5789 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:57:25,336 autoreload 5799 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:57:34,758 autoreload 5799 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:57:35,457 autoreload 5810 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:57:46,917 autoreload 5810 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:57:47,573 autoreload 5820 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:57:54,831 autoreload 5820 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:57:55,678 autoreload 5827 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:57:58,996 autoreload 5827 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:57:59,652 autoreload 5834 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:58:11,134 autoreload 5834 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:58:11,779 autoreload 5847 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:58:17,123 autoreload 5847 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:58:17,839 autoreload 5855 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:58:23,237 autoreload 5855 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:58:24,051 autoreload 5866 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:58:47,771 autoreload 5866 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:58:48,427 autoreload 5900 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:59:39,565 autoreload 5900 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:59:40,330 autoreload 5949 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 19:59:45,773 autoreload 5949 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 19:59:46,422 autoreload 5956 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:00:16,285 autoreload 5956 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 20:00:16,981 autoreload 5987 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:00:30,574 autoreload 5987 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 20:00:31,350 autoreload 5996 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:00:38,728 autoreload 5996 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/models.py changed, reloading.
+INFO 2023-09-10 20:00:39,372 autoreload 6004 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:03:11,297 autoreload 6004 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 20:03:12,008 autoreload 6325 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:03:16,327 autoreload 6325 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 20:03:17,083 autoreload 6331 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:03:22,387 autoreload 6331 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 20:03:23,295 autoreload 6336 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:03:29,697 autoreload 6336 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 20:03:30,376 autoreload 6343 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:03:33,744 autoreload 6343 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 20:03:34,566 autoreload 6365 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:03:49,094 autoreload 6365 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 20:03:49,715 autoreload 6433 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:04:09,345 autoreload 6433 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 20:04:09,983 autoreload 6526 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:04:23,494 autoreload 6526 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 20:04:24,283 autoreload 6612 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:04:30,748 autoreload 6612 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 20:04:31,727 autoreload 6633 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:04:36,127 autoreload 6633 140704689149696 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-10 20:04:36,818 autoreload 6644 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:16:48,218 basehttp 6644 123145410772992 "GET /article/articles/10/ HTTP/1.1" 200 1028
+ERROR 2023-09-10 20:16:50,485 log 6644 123145410772992 Internal Server Error: /article/article/88/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: articlesapp_comment
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 28, in get_article
+    return render(request, template_name='articlesapp/article.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: articlesapp_comment
+ERROR 2023-09-10 20:16:50,504 basehttp 6644 123145410772992 "GET /article/article/88/ HTTP/1.1" 500 164722
+INFO 2023-09-10 20:20:16,129 autoreload 7257 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:20:28,080 autoreload 7267 140704689149696 Watching for file changes with StatReloader
+INFO 2023-09-10 20:20:39,371 autoreload 7288 140704689149696 Watching for file changes with StatReloader
+WARNING 2023-09-10 20:20:41,217 log 7288 123145378131968 Not Found: /
+WARNING 2023-09-10 20:20:41,217 basehttp 7288 123145378131968 "GET / HTTP/1.1" 404 2553
+WARNING 2023-09-10 20:21:00,720 log 7288 123145378131968 Not Found: /articles/10
+WARNING 2023-09-10 20:21:00,721 basehttp 7288 123145378131968 "GET /articles/10 HTTP/1.1" 404 2604
+INFO 2023-09-10 20:21:16,998 basehttp 7288 123145378131968 "GET /article/articles/10/ HTTP/1.1" 200 1028
+INFO 2023-09-10 20:21:17,605 basehttp 7288 123145378131968 "GET /article/articles/10/ HTTP/1.1" 200 1028
+INFO 2023-09-10 20:21:19,329 basehttp 7288 123145378131968 "GET /article/article/90/ HTTP/1.1" 200 1605

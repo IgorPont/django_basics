@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Article</title>
+</head>
+<body>
+<h1>{{ title }}</h1>
+
+Автор: {{ article.author.get_fullname }}
+Дата: {{ article.public_date }}
+
+{{ article.content }}
+
+<h3>Комментарий</h3>
+<div>
+    {% for comment in comments %}
+    <p>{{ comment.author.get_fullname }}</p>
+    <p>{{ comment.date_update }}</p>
+    <p>{{ comment.text }}</p>
+    {% if comment.date_update > comment.date_create %}
+    <p>Изменено</p>
+    {% endif %}
+    {% endfor %}
+</div>
+</body>
+</html>

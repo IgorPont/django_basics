@@ -1,0 +1,19 @@
+{% extends 'about_me_app/base.html' %}
+
+{% block content %}
+<h1 class="title">{{ content }}</h1>
+<form action="#">
+    <input
+            class="form_input"
+            type="text"
+            placeholder="Введите ваше имя"
+    /><br/>
+    <input
+            class="form_input"
+            type="email"
+            placeholder="Введите вашу почту"
+    /><br/>
+    <button class="form_button" type="submit">Отправить</button>
+    <button class="form_button" type="reset">Стереть форму</button>
+</form>
+{% endblock %}
