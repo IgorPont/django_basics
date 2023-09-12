@@ -23,5 +23,6 @@ urlpatterns = [
     path('games/', include('gamesapp.urls')),
     path('about_me/', include('about_me_app.urls')),
     path('article/', include('articlesapp.urls')),
+    path('store/', include('online_store_app.urls')),
 
 ]

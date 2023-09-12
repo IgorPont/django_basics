@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказы клиента {{ client }}</title>
+</head>
+<body>
+<h1>{{ title }} {{ client }}</h1>
+
+<ul>
+    {% for order in orders %}
+    <li>
+        {{ order }}
+
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>

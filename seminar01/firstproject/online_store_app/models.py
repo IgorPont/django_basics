@@ -30,4 +30,13 @@ class Order(models.Model):
     order_placement_date = models.DateField()
 
     def __str__(self):
-        return f'Общая сумма заказа: {self.order_total_amount}, дата оформления: {self.order_placement_date}'
+        return f'Заказ № {self.id}'
+
+    # def __str__(self):
+    #     return f'Клиент: {self.order_client}, общая сумма заказа: {self.order_total_amount}, дата оформления:' \
+    #            f' {self.order_placement_date}'
+
+
+# class OrderProduct(models.Model):
+#     order_id = models.ForeignKey(Order)
+#     product_id = models.ForeignKey(Product)

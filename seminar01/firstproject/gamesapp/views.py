@@ -34,4 +34,3 @@ def random_number(request, count):
     return render(request, template_name='gamesapp/games.html', context=context)
 
 
-# 58:45

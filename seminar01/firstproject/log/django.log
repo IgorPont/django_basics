@@ -1455,3 +1455,744 @@ WARNING 2023-09-10 20:21:00,721 basehttp 7288 123145378131968 "GET /articles/10 
 INFO 2023-09-10 20:21:16,998 basehttp 7288 123145378131968 "GET /article/articles/10/ HTTP/1.1" 200 1028
 INFO 2023-09-10 20:21:17,605 basehttp 7288 123145378131968 "GET /article/articles/10/ HTTP/1.1" 200 1028
 INFO 2023-09-10 20:21:19,329 basehttp 7288 123145378131968 "GET /article/article/90/ HTTP/1.1" 200 1605
+INFO 2023-09-11 20:24:44,383 autoreload 4309 140704537220864 Watching for file changes with StatReloader
+WARNING 2023-09-11 20:24:47,439 log 4309 123145455906816 Not Found: /
+WARNING 2023-09-11 20:24:47,440 basehttp 4309 123145455906816 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-11 20:24:48,067 log 4309 123145455906816 Not Found: /favicon.ico
+WARNING 2023-09-11 20:24:48,068 basehttp 4309 123145455906816 "GET /favicon.ico HTTP/1.1" 404 2710
+WARNING 2023-09-11 20:25:04,476 log 4309 123145455906816 Not Found: /store/2
+WARNING 2023-09-11 20:25:04,477 basehttp 4309 123145455906816 "GET /store/2 HTTP/1.1" 404 2803
+INFO 2023-09-11 20:25:26,065 basehttp 4309 123145455906816 "GET /store/orders/2 HTTP/1.1" 301 0
+ERROR 2023-09-11 20:25:26,117 log 4309 123145472696320 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_orders_by_client() missing 1 required positional argument: 'product_id'
+ERROR 2023-09-11 20:25:26,118 basehttp 4309 123145472696320 "GET /store/orders/2/ HTTP/1.1" 500 58432
+INFO 2023-09-11 20:26:56,332 autoreload 4309 140704537220864 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/urls.py changed, reloading.
+INFO 2023-09-11 20:26:57,066 autoreload 4373 140704537220864 Watching for file changes with StatReloader
+INFO 2023-09-11 20:27:17,073 basehttp 4373 123145339043840 "GET /store/orders/2/1 HTTP/1.1" 200 371
+INFO 2023-09-11 20:41:04,183 autoreload 4373 140704537220864 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-11 20:41:05,034 autoreload 4696 140704537220864 Watching for file changes with StatReloader
+INFO 2023-09-11 20:41:20,648 autoreload 4696 140704537220864 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/urls.py changed, reloading.
+INFO 2023-09-11 20:41:21,346 autoreload 4713 140704537220864 Watching for file changes with StatReloader
+WARNING 2023-09-11 20:41:25,624 log 4713 123145559343104 Not Found: /store/orders/2/1
+WARNING 2023-09-11 20:41:25,625 basehttp 4713 123145559343104 "GET /store/orders/2/1 HTTP/1.1" 404 2834
+WARNING 2023-09-11 20:41:30,318 log 4713 123145559343104 Not Found: /store/orders/2/
+WARNING 2023-09-11 20:41:30,318 basehttp 4713 123145559343104 "GET /store/orders/2/ HTTP/1.1" 404 2831
+WARNING 2023-09-11 20:41:51,815 log 4713 123145559343104 Not Found: /store/orders/2/
+WARNING 2023-09-11 20:41:51,815 basehttp 4713 123145559343104 "GET /store/orders/2/ HTTP/1.1" 404 2831
+WARNING 2023-09-11 20:42:46,553 log 4713 123145559343104 Not Found: /store/orders/2/
+WARNING 2023-09-11 20:42:46,553 basehttp 4713 123145559343104 "GET /store/orders/2/ HTTP/1.1" 404 2831
+WARNING 2023-09-11 20:43:32,548 log 4713 123145559343104 Not Found: /store/ orders/2/
+WARNING 2023-09-11 20:43:32,548 basehttp 4713 123145559343104 "GET /store/%20orders/2/ HTTP/1.1" 404 2836
+WARNING 2023-09-11 20:43:48,524 log 4713 123145559343104 Not Found: /
+WARNING 2023-09-11 20:43:48,525 basehttp 4713 123145559343104 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-11 20:46:41,514 log 4713 123145559343104 Not Found: /store/orders/2/
+WARNING 2023-09-11 20:46:41,514 basehttp 4713 123145559343104 "GET /store/orders/2/ HTTP/1.1" 404 2831
+WARNING 2023-09-11 20:46:42,463 log 4713 123145559343104 Not Found: /store/orders/2/
+WARNING 2023-09-11 20:46:42,463 basehttp 4713 123145559343104 "GET /store/orders/2/ HTTP/1.1" 404 2831
+INFO 2023-09-11 21:02:58,806 autoreload 4713 140704537220864 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-11 21:02:59,632 autoreload 5256 140704537220864 Watching for file changes with StatReloader
+INFO 2023-09-11 21:04:32,647 autoreload 5256 140704537220864 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-11 21:04:33,413 autoreload 5306 140704537220864 Watching for file changes with StatReloader
+WARNING 2023-09-11 21:04:42,779 log 5306 123145490534400 Not Found: /store/orders/2/
+WARNING 2023-09-11 21:04:42,780 basehttp 5306 123145490534400 "GET /store/orders/2/ HTTP/1.1" 404 2831
+WARNING 2023-09-11 21:05:01,209 log 5306 123145490534400 Not Found: /store/orders/2/
+WARNING 2023-09-11 21:05:01,209 basehttp 5306 123145490534400 "GET /store/orders/2/ HTTP/1.1" 404 2831
+WARNING 2023-09-11 21:05:11,056 log 5306 123145490534400 Not Found: /store/orders/2/
+WARNING 2023-09-11 21:05:11,056 basehttp 5306 123145490534400 "GET /store/orders/2/ HTTP/1.1" 404 2831
+WARNING 2023-09-11 21:05:13,052 log 5306 123145490534400 Not Found: /store/
+WARNING 2023-09-11 21:05:13,053 basehttp 5306 123145490534400 "GET /store/ HTTP/1.1" 404 2804
+WARNING 2023-09-11 21:05:26,834 log 5306 123145490534400 Not Found: /store/orders
+WARNING 2023-09-11 21:05:26,834 basehttp 5306 123145490534400 "GET /store/orders HTTP/1.1" 404 2822
+WARNING 2023-09-11 21:05:37,601 log 5306 123145490534400 Not Found: /store/orders/1
+WARNING 2023-09-11 21:05:37,601 basehttp 5306 123145490534400 "GET /store/orders/1 HTTP/1.1" 404 2828
+INFO 2023-09-11 21:05:58,938 autoreload 5345 140704537220864 Watching for file changes with StatReloader
+INFO 2023-09-11 21:06:17,259 autoreload 5386 140704537220864 Watching for file changes with StatReloader
+WARNING 2023-09-11 21:06:19,108 log 5386 123145521745920 Not Found: /
+WARNING 2023-09-11 21:06:19,109 basehttp 5386 123145521745920 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-11 21:06:33,198 log 5386 123145521745920 Not Found: /store/orders/2/
+WARNING 2023-09-11 21:06:33,199 basehttp 5386 123145521745920 "GET /store/orders/2/ HTTP/1.1" 404 2831
+WARNING 2023-09-11 21:06:33,754 log 5386 123145521745920 Not Found: /store/orders/2/
+WARNING 2023-09-11 21:06:33,754 basehttp 5386 123145521745920 "GET /store/orders/2/ HTTP/1.1" 404 2831
+INFO 2023-09-12 07:53:16,088 autoreload 3000 140704483219200 Watching for file changes with StatReloader
+WARNING 2023-09-12 07:53:18,017 log 3000 123145587351552 Not Found: /
+WARNING 2023-09-12 07:53:18,017 basehttp 3000 123145587351552 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-12 07:53:18,807 log 3000 123145587351552 Not Found: /favicon.ico
+WARNING 2023-09-12 07:53:18,807 basehttp 3000 123145587351552 "GET /favicon.ico HTTP/1.1" 404 2710
+WARNING 2023-09-12 07:53:29,839 log 3000 123145587351552 Not Found: /store/
+WARNING 2023-09-12 07:53:29,839 basehttp 3000 123145587351552 "GET /store/ HTTP/1.1" 404 2804
+WARNING 2023-09-12 07:53:43,606 log 3000 123145587351552 Not Found: /store/orders/2/
+WARNING 2023-09-12 07:53:43,610 basehttp 3000 123145587351552 "GET /store/orders/2/ HTTP/1.1" 404 2831
+WARNING 2023-09-12 07:53:44,585 log 3000 123145587351552 Not Found: /store/orders/2/
+WARNING 2023-09-12 07:53:44,586 basehttp 3000 123145587351552 "GET /store/orders/2/ HTTP/1.1" 404 2831
+WARNING 2023-09-12 07:54:01,834 log 3000 123145587351552 Not Found: /store/ orders/2
+WARNING 2023-09-12 07:54:01,834 basehttp 3000 123145587351552 "GET /store/%20orders/2 HTTP/1.1" 404 2833
+WARNING 2023-09-12 07:54:12,850 log 3000 123145587351552 Not Found: /store/orders/2/
+WARNING 2023-09-12 07:54:12,856 basehttp 3000 123145587351552 "GET /store/orders/2/ HTTP/1.1" 404 2831
+INFO 2023-09-12 08:00:50,218 autoreload 3000 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 08:00:51,036 autoreload 3205 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 08:01:30,066 autoreload 3205 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/urls.py changed, reloading.
+INFO 2023-09-12 08:01:30,751 autoreload 3230 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 08:03:08,873 autoreload 3230 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/urls.py changed, reloading.
+INFO 2023-09-12 08:03:09,687 autoreload 3300 140704483219200 Watching for file changes with StatReloader
+WARNING 2023-09-12 08:04:24,872 log 3300 123145401344000 Not Found: /store/ orders/2
+WARNING 2023-09-12 08:04:24,873 basehttp 3300 123145401344000 "GET /store/%20orders/2 HTTP/1.1" 404 3016
+WARNING 2023-09-12 08:04:45,135 log 3300 123145401344000 Not Found: /store/orders/
+WARNING 2023-09-12 08:04:45,135 basehttp 3300 123145401344000 "GET /store/orders/ HTTP/1.1" 404 3008
+WARNING 2023-09-12 08:04:57,043 log 3300 123145401344000 Not Found: /store/
+WARNING 2023-09-12 08:04:57,044 basehttp 3300 123145401344000 "GET /store/ HTTP/1.1" 404 2987
+WARNING 2023-09-12 08:05:13,132 log 3300 123145401344000 Not Found: /article/
+WARNING 2023-09-12 08:05:13,132 basehttp 3300 123145401344000 "GET /article/ HTTP/1.1" 404 3019
+INFO 2023-09-12 08:08:50,116 basehttp 3300 123145401344000 "GET /article/articles/10/ HTTP/1.1" 200 1028
+INFO 2023-09-12 08:08:58,037 basehttp 3300 123145401344000 "GET /article/articles/10/ HTTP/1.1" 200 1028
+WARNING 2023-09-12 08:09:00,367 log 3300 123145401344000 Not Found: /article/
+WARNING 2023-09-12 08:09:00,368 basehttp 3300 123145401344000 "GET /article/ HTTP/1.1" 404 3019
+WARNING 2023-09-12 08:09:14,763 log 3300 123145401344000 Not Found: /store/
+WARNING 2023-09-12 08:09:14,764 basehttp 3300 123145401344000 "GET /store/ HTTP/1.1" 404 2987
+WARNING 2023-09-12 08:09:29,440 log 3300 123145401344000 Not Found: /store/orders/
+WARNING 2023-09-12 08:09:29,440 basehttp 3300 123145401344000 "GET /store/orders/ HTTP/1.1" 404 3008
+INFO 2023-09-12 08:11:18,496 autoreload 3300 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 08:11:19,379 autoreload 3512 140704483219200 Watching for file changes with StatReloader
+WARNING 2023-09-12 08:11:26,248 log 3512 123145358589952 Not Found: /store/orders/
+WARNING 2023-09-12 08:11:26,248 basehttp 3512 123145358589952 "GET /store/orders/ HTTP/1.1" 404 3008
+WARNING 2023-09-12 08:13:53,649 log 3512 123145358589952 Not Found: /store/orders/
+WARNING 2023-09-12 08:13:53,650 basehttp 3512 123145358589952 "GET /store/orders/ HTTP/1.1" 404 3008
+INFO 2023-09-12 08:14:44,824 autoreload 3621 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 08:15:47,712 autoreload 3685 140704483219200 Watching for file changes with StatReloader
+WARNING 2023-09-12 08:15:51,594 log 3685 123145509765120 Not Found: /
+WARNING 2023-09-12 08:15:51,594 basehttp 3685 123145509765120 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-12 08:16:06,637 log 3685 123145509765120 Not Found: /store
+WARNING 2023-09-12 08:16:06,638 basehttp 3685 123145509765120 "GET /store HTTP/1.1" 404 2692
+WARNING 2023-09-12 08:16:14,363 log 3685 123145509765120 Not Found: /store/
+WARNING 2023-09-12 08:16:14,364 basehttp 3685 123145509765120 "GET /store/ HTTP/1.1" 404 2987
+WARNING 2023-09-12 08:16:15,158 log 3685 123145509765120 Not Found: /store/
+WARNING 2023-09-12 08:16:15,158 basehttp 3685 123145509765120 "GET /store/ HTTP/1.1" 404 2987
+WARNING 2023-09-12 08:16:27,155 log 3685 123145509765120 Not Found: /store/orders/
+WARNING 2023-09-12 08:16:27,156 basehttp 3685 123145509765120 "GET /store/orders/ HTTP/1.1" 404 3008
+WARNING 2023-09-12 08:16:56,606 log 3685 123145509765120 Not Found: /store/orders/2/
+WARNING 2023-09-12 08:16:56,606 basehttp 3685 123145509765120 "GET /store/orders/2/ HTTP/1.1" 404 3014
+WARNING 2023-09-12 08:20:29,556 log 3685 123145509765120 Not Found: /store/
+WARNING 2023-09-12 08:20:29,556 basehttp 3685 123145509765120 "GET /store/ HTTP/1.1" 404 2987
+WARNING 2023-09-12 08:20:43,281 log 3685 123145509765120 Not Found: /games/coinplay
+WARNING 2023-09-12 08:20:43,281 basehttp 3685 123145509765120 "GET /games/coinplay HTTP/1.1" 404 3211
+INFO 2023-09-12 08:20:48,498 basehttp 3685 123145509765120 "GET /games/coinplay/2 HTTP/1.1" 301 0
+INFO 2023-09-12 08:20:48,507 views 3685 123145526554624 coinplay requested; Coin side: ['avers', 'revers']
+INFO 2023-09-12 08:20:48,514 basehttp 3685 123145526554624 "GET /games/coinplay/2/ HTTP/1.1" 200 220
+WARNING 2023-09-12 08:21:04,761 log 3685 123145526554624 Not Found: /store/
+WARNING 2023-09-12 08:21:04,762 basehttp 3685 123145526554624 "GET /store/ HTTP/1.1" 404 2987
+WARNING 2023-09-12 08:21:06,314 log 3685 123145526554624 Not Found: /store/
+WARNING 2023-09-12 08:21:06,315 basehttp 3685 123145526554624 "GET /store/ HTTP/1.1" 404 2987
+WARNING 2023-09-12 08:21:12,111 log 3685 123145526554624 Not Found: /store/orders
+WARNING 2023-09-12 08:21:12,111 basehttp 3685 123145526554624 "GET /store/orders HTTP/1.1" 404 3005
+INFO 2023-09-12 08:23:15,743 autoreload 3685 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 08:23:16,623 autoreload 3881 140704483219200 Watching for file changes with StatReloader
+WARNING 2023-09-12 08:23:55,533 log 3881 123145344552960 Not Found: /store/orders
+WARNING 2023-09-12 08:23:55,533 basehttp 3881 123145344552960 "GET /store/orders HTTP/1.1" 404 3005
+INFO 2023-09-12 08:56:42,791 autoreload 4303 140704483219200 Watching for file changes with StatReloader
+WARNING 2023-09-12 08:56:47,885 log 4303 123145560993792 Not Found: /
+WARNING 2023-09-12 08:56:47,885 basehttp 4303 123145560993792 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-12 08:57:03,207 log 4303 123145560993792 Not Found: /store/
+WARNING 2023-09-12 08:57:03,207 basehttp 4303 123145560993792 "GET /store/ HTTP/1.1" 404 2979
+INFO 2023-09-12 08:57:08,963 basehttp 4303 123145560993792 "GET /store/orders HTTP/1.1" 301 0
+INFO 2023-09-12 08:57:08,983 basehttp 4303 123145577783296 "GET /store/orders/ HTTP/1.1" 200 284
+ERROR 2023-09-12 08:57:26,321 log 4303 123145577783296 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 7, in get_orders_by_client
+    order = Order.objects.filter(order_client=client, order_product=client)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1464, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1275, in check_related_objects
+    self.check_query_object_type(value, opts, field)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1252, in check_query_object_type
+    raise ValueError(
+ValueError: Cannot query "Client Nm2: зарегистрирован - 2023-09-01": Must be "Product" instance.
+ERROR 2023-09-12 08:57:26,332 basehttp 4303 123145577783296 "GET /store/orders/2/ HTTP/1.1" 500 109329
+INFO 2023-09-12 09:29:11,211 autoreload 4303 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/models.py changed, reloading.
+INFO 2023-09-12 09:29:12,102 autoreload 5139 140704483219200 Watching for file changes with StatReloader
+WARNING 2023-09-12 09:29:15,548 log 5139 123145436909568 Not Found: /
+WARNING 2023-09-12 09:29:15,549 basehttp 5139 123145436909568 "GET / HTTP/1.1" 404 2659
+INFO 2023-09-12 09:29:22,127 basehttp 5139 123145436909568 "GET /store/orders/ HTTP/1.1" 200 525
+INFO 2023-09-12 09:32:40,697 autoreload 5139 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 09:32:41,556 autoreload 5231 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 09:32:45,607 basehttp 5231 123145455886336 "GET /store/orders/ HTTP/1.1" 200 555
+ERROR 2023-09-12 09:33:03,441 log 5231 123145455886336 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 7, in get_orders_by_client
+    product = Order.objects.filter(order_client=client, order_product=client)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1464, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1275, in check_related_objects
+    self.check_query_object_type(value, opts, field)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1252, in check_query_object_type
+    raise ValueError(
+ValueError: Cannot query "Client Nm2: зарегистрирован - 2023-09-01": Must be "Product" instance.
+ERROR 2023-09-12 09:33:03,447 basehttp 5231 123145455886336 "GET /store/orders/2/ HTTP/1.1" 500 110513
+INFO 2023-09-12 09:35:30,401 autoreload 5231 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 09:35:31,170 autoreload 5316 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 09:38:00,339 autoreload 5316 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 09:38:01,035 autoreload 5381 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 09:38:04,656 basehttp 5381 123145421115392 "GET /store/orders/2/ HTTP/1.1" 200 683
+INFO 2023-09-12 09:40:40,235 basehttp 5381 123145421115392 "GET /store/orders/2/ HTTP/1.1" 200 821
+INFO 2023-09-12 09:42:17,010 basehttp 5381 123145421115392 "GET /store/orders/2/ HTTP/1.1" 200 763
+INFO 2023-09-12 09:43:46,277 autoreload 5381 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/models.py changed, reloading.
+INFO 2023-09-12 09:43:47,034 autoreload 5551 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 09:44:03,507 basehttp 5551 123145373274112 "GET /store/orders/2/ HTTP/1.1" 200 893
+INFO 2023-09-12 09:45:10,193 autoreload 5551 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/models.py changed, reloading.
+INFO 2023-09-12 09:45:10,906 autoreload 5605 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 09:52:51,074 autoreload 5605 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 09:52:51,859 autoreload 5807 140704483219200 Watching for file changes with StatReloader
+ERROR 2023-09-12 09:53:45,176 log 5807 123145432657920 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 8, in get_orders_by_client
+    order = Order.objects.filter(order_client=client, order_product=product)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/fields/related_lookups.py", line 168, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 337, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+ERROR 2023-09-12 09:53:45,183 basehttp 5807 123145432657920 "GET /store/orders/2/ HTTP/1.1" 500 120621
+INFO 2023-09-12 09:56:04,144 autoreload 5807 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 09:56:05,028 autoreload 5918 140704483219200 Watching for file changes with StatReloader
+ERROR 2023-09-12 09:56:12,311 log 5918 123145499398144 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 8, in get_orders_by_client
+    order = Order.objects.filter(order_client=client, order_product=product)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/fields/related_lookups.py", line 168, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 337, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+ERROR 2023-09-12 09:56:12,318 basehttp 5918 123145499398144 "GET /store/orders/2/ HTTP/1.1" 500 120589
+ERROR 2023-09-12 09:56:15,049 log 5918 123145499398144 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 8, in get_orders_by_client
+    order = Order.objects.filter(order_client=client, order_product=product)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/fields/related_lookups.py", line 168, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/lookups.py", line 337, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+ERROR 2023-09-12 09:56:15,052 basehttp 5918 123145499398144 "GET /store/orders/2/ HTTP/1.1" 500 120589
+INFO 2023-09-12 09:57:20,945 autoreload 5918 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 09:57:21,663 autoreload 5967 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 09:57:23,934 basehttp 5967 123145489190912 "GET /store/orders/2/ HTTP/1.1" 200 683
+ERROR 2023-09-12 09:59:12,227 log 5967 123145489190912 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 14, in get_orders_by_client
+    return render(request, template_name='online_store_app/orders.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 484, in parse
+    raise self.error(token, e)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '="order.order_product"' from 'id="order.order_product"'
+ERROR 2023-09-12 09:59:12,239 basehttp 5967 123145489190912 "GET /store/orders/2/ HTTP/1.1" 500 155168
+INFO 2023-09-12 09:59:53,982 basehttp 5967 123145489190912 "GET /store/orders/2/ HTTP/1.1" 200 693
+INFO 2023-09-12 10:22:15,284 basehttp 5967 123145489190912 "GET /store/orders/2/ HTTP/1.1" 200 693
+INFO 2023-09-12 13:07:16,916 autoreload 9763 140704483219200 Watching for file changes with StatReloader
+WARNING 2023-09-12 13:07:18,385 log 9763 123145531711488 Not Found: /
+WARNING 2023-09-12 13:07:18,386 basehttp 9763 123145531711488 "GET / HTTP/1.1" 404 2659
+INFO 2023-09-12 13:07:41,693 basehttp 9763 123145531711488 "GET /store/orders/ HTTP/1.1" 200 555
+INFO 2023-09-12 13:07:58,717 basehttp 9763 123145531711488 "GET /store/orders/2/ HTTP/1.1" 200 693
+INFO 2023-09-12 13:14:26,209 autoreload 9763 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:14:27,426 autoreload 9962 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 13:14:35,068 basehttp 9962 123145457881088 "GET /store/orders/2/ HTTP/1.1" 200 693
+INFO 2023-09-12 13:14:38,857 basehttp 9962 123145457881088 "GET /store/orders/2/ HTTP/1.1" 200 693
+INFO 2023-09-12 13:15:21,970 autoreload 9962 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:15:22,838 autoreload 10011 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 13:15:31,333 basehttp 10011 123145572593664 "GET /store/orders/2/ HTTP/1.1" 200 693
+INFO 2023-09-12 13:17:22,906 autoreload 10011 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:17:23,632 autoreload 10076 140704483219200 Watching for file changes with StatReloader
+ERROR 2023-09-12 13:17:29,467 log 10076 123145566556160 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 12, in get_orders_by_client
+    'orders': order.order_product,
+              ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'order_product'
+ERROR 2023-09-12 13:17:29,469 basehttp 10076 123145566556160 "GET /store/orders/2/ HTTP/1.1" 500 63046
+INFO 2023-09-12 13:19:14,341 autoreload 10076 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:19:15,447 autoreload 10133 140704483219200 Watching for file changes with StatReloader
+ERROR 2023-09-12 13:19:19,180 log 10133 123145548128256 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 14, in get_orders_by_client
+    return render(request, template_name='online_store_app/orders.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Order' object is not iterable
+ERROR 2023-09-12 13:19:19,189 basehttp 10133 123145548128256 "GET /store/orders/2/ HTTP/1.1" 500 106822
+ERROR 2023-09-12 13:19:52,781 log 10133 123145548128256 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 14, in get_orders_by_client
+    return render(request, template_name='online_store_app/orders.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Order' object is not iterable
+ERROR 2023-09-12 13:19:52,786 basehttp 10133 123145548128256 "GET /store/orders/2/ HTTP/1.1" 500 107002
+INFO 2023-09-12 13:20:57,125 autoreload 10133 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:20:58,033 autoreload 10198 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 13:21:10,632 autoreload 10198 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:21:11,454 autoreload 10214 140704483219200 Watching for file changes with StatReloader
+ERROR 2023-09-12 13:21:14,721 log 10214 123145482182656 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 15, in get_orders_by_client
+    return render(request, template_name='online_store_app/orders.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Order' object is not iterable
+ERROR 2023-09-12 13:21:14,731 basehttp 10214 123145482182656 "GET /store/orders/2/ HTTP/1.1" 500 106778
+INFO 2023-09-12 13:22:52,970 autoreload 10214 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:22:53,877 autoreload 10276 140704483219200 Watching for file changes with StatReloader
+ERROR 2023-09-12 13:22:55,284 log 10276 123145582997504 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 15, in get_orders_by_client
+    return render(request, template_name='online_store_app/orders.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Order' object is not iterable
+ERROR 2023-09-12 13:22:55,295 basehttp 10276 123145582997504 "GET /store/orders/2/ HTTP/1.1" 500 106783
+INFO 2023-09-12 13:23:30,234 autoreload 10276 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:23:31,034 autoreload 10303 140704483219200 Watching for file changes with StatReloader
+ERROR 2023-09-12 13:23:38,591 log 10303 123145588535296 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 15, in get_orders_by_client
+    return render(request, template_name='online_store_app/orders.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Order' object is not iterable
+ERROR 2023-09-12 13:23:38,603 basehttp 10303 123145588535296 "GET /store/orders/2/ HTTP/1.1" 500 106791
+INFO 2023-09-12 13:25:51,617 autoreload 10303 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:25:52,611 autoreload 10367 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 13:25:57,154 basehttp 10367 123145361772544 "GET /store/orders/2/ HTTP/1.1" 200 410
+INFO 2023-09-12 13:27:50,351 autoreload 10367 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/models.py changed, reloading.
+INFO 2023-09-12 13:27:51,439 autoreload 10441 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 13:27:57,896 basehttp 10441 123145406722048 "GET /store/orders/2/ HTTP/1.1" 200 410
+INFO 2023-09-12 13:35:09,770 autoreload 10441 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:35:10,828 autoreload 10662 140704483219200 Watching for file changes with StatReloader
+ERROR 2023-09-12 13:35:15,865 log 10662 123145494507520 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 10, in get_orders_by_client
+    for j in i.order_product:
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-09-12 13:35:15,867 basehttp 10662 123145494507520 "GET /store/orders/2/ HTTP/1.1" 500 62903
+INFO 2023-09-12 13:36:11,482 autoreload 10662 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:36:12,551 autoreload 10713 140704483219200 Watching for file changes with StatReloader
+ERROR 2023-09-12 13:36:15,717 log 10713 123145341657088 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 11, in get_orders_by_client
+    for j in i.order_product:
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-09-12 13:36:15,724 basehttp 10713 123145341657088 "GET /store/orders/2/ HTTP/1.1" 500 62933
+INFO 2023-09-12 13:40:29,240 autoreload 10713 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/models.py changed, reloading.
+INFO 2023-09-12 13:40:30,174 autoreload 10833 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 13:43:48,469 autoreload 10942 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 13:43:57,746 autoreload 10942 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/models.py changed, reloading.
+INFO 2023-09-12 13:43:58,594 autoreload 10949 140704483219200 Watching for file changes with StatReloader
+WARNING 2023-09-12 13:44:02,415 log 10949 123145574354944 Not Found: /
+WARNING 2023-09-12 13:44:02,415 basehttp 10949 123145574354944 "GET / HTTP/1.1" 404 2659
+INFO 2023-09-12 13:44:11,722 basehttp 10949 123145574354944 "GET /store/orders/2/ HTTP/1.1" 200 410
+INFO 2023-09-12 13:45:10,621 autoreload 10949 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py changed, reloading.
+INFO 2023-09-12 13:45:11,372 autoreload 10994 140704483219200 Watching for file changes with StatReloader
+ERROR 2023-09-12 13:45:14,641 log 10994 123145340010496 Internal Server Error: /store/orders/2/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/views.py", line 10, in get_orders_by_client
+    print(i.order_product.id)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ManyRelatedManager' object has no attribute 'id'
+ERROR 2023-09-12 13:45:14,642 basehttp 10994 123145340010496 "GET /store/orders/2/ HTTP/1.1" 500 63004
+INFO 2023-09-12 13:47:17,512 autoreload 10994 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/models.py changed, reloading.
+INFO 2023-09-12 13:47:18,552 autoreload 11067 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 13:48:10,322 autoreload 11067 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/models.py changed, reloading.
+INFO 2023-09-12 13:48:11,319 autoreload 11110 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 13:49:25,075 autoreload 11110 140704483219200 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/online_store_app/models.py changed, reloading.
+INFO 2023-09-12 13:49:25,986 autoreload 11165 140704483219200 Watching for file changes with StatReloader
+INFO 2023-09-12 19:48:55,302 autoreload 4187 140704265123584 Watching for file changes with StatReloader
+WARNING 2023-09-12 19:49:00,962 log 4187 123145482158080 Not Found: /
+WARNING 2023-09-12 19:49:00,963 basehttp 4187 123145482158080 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-12 19:49:01,698 log 4187 123145482158080 Not Found: /favicon.ico
+WARNING 2023-09-12 19:49:01,698 basehttp 4187 123145482158080 "GET /favicon.ico HTTP/1.1" 404 2710
+INFO 2023-09-12 19:49:19,464 basehttp 4187 123145482158080 "GET /store/orders/2/ HTTP/1.1" 200 410
