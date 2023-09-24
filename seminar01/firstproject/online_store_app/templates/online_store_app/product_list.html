@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Все товары</title>
+</head>
+<body>
+<h1>Все товары</h1>
+
+<!-- Выводим уже созданные записи -->
+{% for p in products %}
+<p>{{ p }}</p>
+<img src="{{ p.cover.url }}" width="100px">
+<!-- Выводим размер картинки -->
+<p>Оригинальный размер картинки {{ p.cover.width }}x{{ p.cover.height }}</p>
+<p>{{ p.product_description }}</p>
+<br/>
+{% endfor %}
+
+</body>
+</html>

@@ -18,6 +18,7 @@ class Product(models.Model):
     product_price = models.DecimalField(max_digits=8, decimal_places=2)
     product_quantity = models.IntegerField()
     product_addition_date = models.DateField()
+    cover = models.ImageField(upload_to='images/')
 
     def __str__(self):
         return f'{self.product_name}: цена - {self.product_price}'
