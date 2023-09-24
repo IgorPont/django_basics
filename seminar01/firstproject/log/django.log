@@ -2196,3 +2196,297 @@ WARNING 2023-09-12 19:49:00,963 basehttp 4187 123145482158080 "GET / HTTP/1.1" 4
 WARNING 2023-09-12 19:49:01,698 log 4187 123145482158080 Not Found: /favicon.ico
 WARNING 2023-09-12 19:49:01,698 basehttp 4187 123145482158080 "GET /favicon.ico HTTP/1.1" 404 2710
 INFO 2023-09-12 19:49:19,464 basehttp 4187 123145482158080 "GET /store/orders/2/ HTTP/1.1" 200 410
+INFO 2023-09-17 18:35:02,968 autoreload 5420 140704497903360 Watching for file changes with StatReloader
+INFO 2023-09-17 18:37:55,320 autoreload 5420 140704497903360 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-09-17 18:37:55,971 autoreload 5486 140704497903360 Watching for file changes with StatReloader
+WARNING 2023-09-17 18:38:03,988 log 5486 123145537544192 Not Found: /
+WARNING 2023-09-17 18:38:03,989 basehttp 5486 123145537544192 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-17 18:38:04,859 log 5486 123145537544192 Not Found: /favicon.ico
+WARNING 2023-09-17 18:38:04,860 basehttp 5486 123145537544192 "GET /favicon.ico HTTP/1.1" 404 2710
+WARNING 2023-09-17 18:38:17,719 log 5486 123145537544192 Not Found: /games/
+WARNING 2023-09-17 18:38:17,719 basehttp 5486 123145537544192 "GET /games/ HTTP/1.1" 404 3378
+INFO 2023-09-17 18:38:31,136 basehttp 5486 123145537544192 "GET /games/get_a_game HTTP/1.1" 301 0
+ERROR 2023-09-17 18:38:31,180 log 5486 123145554333696 Internal Server Error: /games/get_a_game/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py", line 40, in simple_games_forms
+    if request.metod == 'POST':
+       ^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'metod'
+ERROR 2023-09-17 18:38:31,182 basehttp 5486 123145554333696 "GET /games/get_a_game/ HTTP/1.1" 500 62417
+INFO 2023-09-17 18:44:48,481 autoreload 5486 140704497903360 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/gamesapp/views.py changed, reloading.
+INFO 2023-09-17 18:44:49,258 autoreload 5674 140704497903360 Watching for file changes with StatReloader
+WARNING 2023-09-17 19:07:00,464 log 5674 123145431887872 Not Found: /
+WARNING 2023-09-17 19:07:00,465 basehttp 5674 123145431887872 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-17 19:07:16,871 log 5674 123145431887872 Not Found: /games/
+WARNING 2023-09-17 19:07:16,872 basehttp 5674 123145431887872 "GET /games/ HTTP/1.1" 404 3378
+INFO 2023-09-17 19:07:28,219 views 5674 123145431887872 Sending game chooser
+INFO 2023-09-17 19:07:28,259 basehttp 5674 123145431887872 "GET /games/get_a_game/ HTTP/1.1" 200 865
+WARNING 2023-09-17 19:07:33,079 log 5674 123145431887872 Not Found: /
+WARNING 2023-09-17 19:07:33,079 basehttp 5674 123145431887872 "GET / HTTP/1.1" 404 2659
+INFO 2023-09-17 19:07:52,130 views 5674 123145431887872 Sending results for game Coin play
+INFO 2023-09-17 19:07:52,133 basehttp 5674 123145431887872 "POST /games/get_a_game/ HTTP/1.1" 200 439
+INFO 2023-09-17 19:07:58,951 views 5674 123145431887872 Sending game chooser
+INFO 2023-09-17 19:07:58,954 basehttp 5674 123145431887872 "GET /games/get_a_game/ HTTP/1.1" 200 865
+INFO 2023-09-17 19:08:02,897 views 5674 123145431887872 Sending results for game Dice
+INFO 2023-09-17 19:08:02,901 basehttp 5674 123145431887872 "POST /games/get_a_game/ HTTP/1.1" 200 399
+INFO 2023-09-17 19:08:05,626 views 5674 123145431887872 Sending game chooser
+INFO 2023-09-17 19:08:05,628 basehttp 5674 123145431887872 "GET /games/get_a_game/ HTTP/1.1" 200 865
+INFO 2023-09-17 19:08:11,593 views 5674 123145431887872 Sending results for game Rundom namber
+INFO 2023-09-17 19:08:11,594 basehttp 5674 123145431887872 "POST /games/get_a_game/ HTTP/1.1" 200 421
+INFO 2023-09-17 19:08:20,172 views 5674 123145431887872 Sending game chooser
+INFO 2023-09-17 19:08:20,174 basehttp 5674 123145431887872 "GET /games/get_a_game/ HTTP/1.1" 200 865
+INFO 2023-09-19 20:05:49,845 autoreload 3616 140704520034048 Watching for file changes with StatReloader
+WARNING 2023-09-19 20:05:56,335 log 3616 123145336700928 Not Found: /
+WARNING 2023-09-19 20:05:56,336 basehttp 3616 123145336700928 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-19 20:05:56,996 log 3616 123145336700928 Not Found: /favicon.ico
+WARNING 2023-09-19 20:05:56,997 basehttp 3616 123145336700928 "GET /favicon.ico HTTP/1.1" 404 2710
+WARNING 2023-09-19 20:06:10,625 log 3616 123145336700928 Not Found: /article/
+WARNING 2023-09-19 20:06:10,626 basehttp 3616 123145336700928 "GET /article/ HTTP/1.1" 404 3201
+WARNING 2023-09-19 20:06:31,205 log 3616 123145336700928 Not Found: /article/author/
+WARNING 2023-09-19 20:06:31,205 basehttp 3616 123145336700928 "GET /article/author/ HTTP/1.1" 404 3222
+INFO 2023-09-19 20:06:59,180 basehttp 3616 123145336700928 "GET /article/authors/ HTTP/1.1" 200 1114
+INFO 2023-09-19 20:08:33,726 basehttp 3616 123145336700928 "POST /article/authors/ HTTP/1.1" 200 1264
+INFO 2023-09-19 20:08:44,960 basehttp 3616 123145336700928 "POST /article/authors/ HTTP/1.1" 200 1264
+INFO 2023-09-19 20:14:10,025 basehttp 3616 123145336700928 "POST /article/authors/ HTTP/1.1" 200 1264
+INFO 2023-09-19 20:14:27,266 basehttp 3616 123145336700928 "POST /article/authors/ HTTP/1.1" 200 1209
+INFO 2023-09-19 20:14:54,655 autoreload 3616 140704520034048 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-19 20:14:55,454 autoreload 3825 140704520034048 Watching for file changes with StatReloader
+INFO 2023-09-21 19:33:16,335 autoreload 2430 140704406918912 Watching for file changes with StatReloader
+INFO 2023-09-21 19:34:42,551 autoreload 2478 140704406918912 Watching for file changes with StatReloader
+INFO 2023-09-21 19:35:38,754 autoreload 2515 140704406918912 Watching for file changes with StatReloader
+WARNING 2023-09-21 19:35:41,389 log 2515 123145464635392 Not Found: /
+WARNING 2023-09-21 19:35:41,389 basehttp 2515 123145464635392 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-21 19:35:42,075 log 2515 123145464635392 Not Found: /favicon.ico
+WARNING 2023-09-21 19:35:42,076 basehttp 2515 123145464635392 "GET /favicon.ico HTTP/1.1" 404 2710
+WARNING 2023-09-21 19:35:55,054 log 2515 123145464635392 Not Found: /article/
+WARNING 2023-09-21 19:35:55,055 basehttp 2515 123145464635392 "GET /article/ HTTP/1.1" 404 3391
+ERROR 2023-09-21 19:36:09,706 log 2515 123145464635392 Internal Server Error: /article/add_article/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 69, in add_article
+    return render(request, template_name='articlesapp/add_article.html', context={'form': form, 'title': 'Add article'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: articlesapp/add_article.html
+ERROR 2023-09-21 19:36:09,710 basehttp 2515 123145464635392 "GET /article/add_article/ HTTP/1.1" 500 79309
+ERROR 2023-09-21 19:37:30,896 log 2515 123145464635392 Internal Server Error: /article/add_article/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 69, in add_article
+    return render(request, template_name='articlesapp/add_article.html', context={'form': form, 'title': 'Add article'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: articlesapp/add_article.html
+ERROR 2023-09-21 19:37:30,897 basehttp 2515 123145464635392 "GET /article/add_article/ HTTP/1.1" 500 79446
+INFO 2023-09-21 19:37:42,293 autoreload 2581 140704406918912 Watching for file changes with StatReloader
+WARNING 2023-09-21 19:37:44,248 log 2581 123145566367744 Not Found: /
+WARNING 2023-09-21 19:37:44,248 basehttp 2581 123145566367744 "GET / HTTP/1.1" 404 2659
+INFO 2023-09-21 19:38:02,629 basehttp 2581 123145566367744 "GET /article/add_article HTTP/1.1" 301 0
+ERROR 2023-09-21 19:38:02,675 log 2581 123145583157248 Internal Server Error: /article/add_article/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 69, in add_article
+    return render(request, template_name='articlesapp/add_article.html', context={'form': form, 'title': 'Add article'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: articlesapp/add_article.html
+ERROR 2023-09-21 19:38:02,678 basehttp 2581 123145583157248 "GET /article/add_article/ HTTP/1.1" 500 79309
+WARNING 2023-09-21 19:38:32,285 log 2581 123145583157248 Not Found: /article/
+WARNING 2023-09-21 19:38:32,286 basehttp 2581 123145583157248 "GET /article/ HTTP/1.1" 404 3391
+ERROR 2023-09-21 19:38:41,658 log 2581 123145583157248 Internal Server Error: /article/add_article/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 69, in add_article
+    return render(request, template_name='articlesapp/add_article.html', context={'form': form, 'title': 'Add article'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: articlesapp/add_article.html
+ERROR 2023-09-21 19:38:41,659 basehttp 2581 123145583157248 "GET /article/add_article/ HTTP/1.1" 500 79309
+INFO 2023-09-21 19:39:42,069 autoreload 2581 140704406918912 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-21 19:39:42,779 autoreload 2636 140704406918912 Watching for file changes with StatReloader
+WARNING 2023-09-21 19:39:45,207 log 2636 123145407987712 Not Found: /
+WARNING 2023-09-21 19:39:45,208 basehttp 2636 123145407987712 "GET / HTTP/1.1" 404 2659
+INFO 2023-09-21 19:40:11,151 basehttp 2636 123145407987712 "GET /article/add_article/ HTTP/1.1" 200 1490
+ERROR 2023-09-21 19:40:37,598 log 2636 123145407987712 Internal Server Error: /article/add_article/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 53, in add_article
+    form = AddArticle(request.post)
+                      ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'post'
+ERROR 2023-09-21 19:40:37,600 basehttp 2636 123145407987712 "POST /article/add_article/ HTTP/1.1" 500 64013
+INFO 2023-09-21 19:47:44,746 autoreload 2636 140704406918912 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-21 19:47:45,413 autoreload 2812 140704406918912 Watching for file changes with StatReloader
+INFO 2023-09-21 19:47:54,545 basehttp 2812 123145540931584 "POST /article/add_article/ HTTP/1.1" 200 1553
+INFO 2023-09-21 19:47:56,724 basehttp 2812 123145540931584 "POST /article/add_article/ HTTP/1.1" 200 1553
+INFO 2023-09-21 19:51:08,922 basehttp 2812 123145540931584 "POST /article/add_article/ HTTP/1.1" 200 1548
+INFO 2023-09-21 19:52:16,256 autoreload 2812 140704406918912 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-21 19:52:16,956 autoreload 2933 140704406918912 Watching for file changes with StatReloader
+INFO 2023-09-21 19:52:21,468 basehttp 2933 123145358835712 "POST /article/add_article/ HTTP/1.1" 200 1548
+INFO 2023-09-21 19:52:23,444 basehttp 2933 123145358835712 "POST /article/add_article/ HTTP/1.1" 200 1548
+INFO 2023-09-21 19:52:56,133 autoreload 2933 140704406918912 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-21 19:52:57,083 autoreload 2966 140704406918912 Watching for file changes with StatReloader
+INFO 2023-09-21 19:53:22,971 autoreload 2966 140704406918912 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-21 19:53:23,649 autoreload 2991 140704406918912 Watching for file changes with StatReloader
+INFO 2023-09-21 19:53:27,164 basehttp 2991 123145340227584 "POST /article/add_article/ HTTP/1.1" 200 1548
+INFO 2023-09-21 19:53:51,306 basehttp 2991 123145340227584 "POST /article/add_article/ HTTP/1.1" 200 1548
+INFO 2023-09-21 19:53:53,959 basehttp 2991 123145340227584 "POST /article/add_article/ HTTP/1.1" 200 1548
+INFO 2023-09-21 20:00:09,810 autoreload 2991 140704406918912 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-21 20:00:10,606 autoreload 3193 140704406918912 Watching for file changes with StatReloader
+INFO 2023-09-21 20:02:28,615 autoreload 3193 140704406918912 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-21 20:02:29,483 autoreload 3270 140704406918912 Watching for file changes with StatReloader
+WARNING 2023-09-21 20:02:32,311 log 3270 123145582960640 Not Found: /
+WARNING 2023-09-21 20:02:32,312 basehttp 3270 123145582960640 "GET / HTTP/1.1" 404 2659
+INFO 2023-09-21 20:02:40,273 basehttp 3270 123145582960640 "POST /article/add_article/ HTTP/1.1" 200 1543
+INFO 2023-09-21 20:02:42,121 basehttp 3270 123145582960640 "POST /article/add_article/ HTTP/1.1" 200 1543
+INFO 2023-09-21 20:06:43,030 autoreload 3270 140704406918912 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/forms.py changed, reloading.
+INFO 2023-09-21 20:06:43,760 autoreload 3390 140704406918912 Watching for file changes with StatReloader
+INFO 2023-09-21 20:06:51,224 autoreload 3390 140704406918912 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/forms.py changed, reloading.
+INFO 2023-09-21 20:06:52,025 autoreload 3407 140704406918912 Watching for file changes with StatReloader
+INFO 2023-09-21 20:06:58,527 autoreload 3407 140704406918912 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/forms.py changed, reloading.
+INFO 2023-09-21 20:06:59,142 autoreload 3414 140704406918912 Watching for file changes with StatReloader
+INFO 2023-09-23 19:58:52,361 autoreload 4733 140704266647296 Watching for file changes with StatReloader
+INFO 2023-09-23 20:01:52,725 autoreload 4818 140704266647296 Watching for file changes with StatReloader
+WARNING 2023-09-23 20:01:56,613 log 4818 123145562501120 Not Found: /
+WARNING 2023-09-23 20:01:56,615 basehttp 4818 123145562501120 "GET / HTTP/1.1" 404 2659
+WARNING 2023-09-23 20:01:57,627 log 4818 123145562501120 Not Found: /favicon.ico
+WARNING 2023-09-23 20:01:57,627 basehttp 4818 123145562501120 "GET /favicon.ico HTTP/1.1" 404 2710
+INFO 2023-09-23 20:02:07,904 basehttp 4818 123145562501120 "GET /article/add_article/ HTTP/1.1" 200 1485
+WARNING 2023-09-23 20:02:24,288 log 4818 123145562501120 Not Found: /
+WARNING 2023-09-23 20:02:24,289 basehttp 4818 123145562501120 "GET / HTTP/1.1" 404 2659
+INFO 2023-09-23 20:02:56,392 basehttp 4818 123145562501120 "GET /article/get_article/1 HTTP/1.1" 301 0
+ERROR 2023-09-23 20:02:56,470 log 4818 123145579290624 Internal Server Error: /article/get_article/1/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'scrf_token'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 52, in get_article
+    return render(request, template_name='articlesapp/article.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 31: 'scrf_token'. Did you forget to register or load this tag?
+ERROR 2023-09-23 20:02:56,480 basehttp 4818 123145579290624 "GET /article/get_article/1/ HTTP/1.1" 500 138737
+INFO 2023-09-23 20:03:45,236 basehttp 4818 123145579290624 "GET /article/get_article/1/ HTTP/1.1" 200 1712
+ERROR 2023-09-23 20:03:55,812 log 4818 123145579290624 Internal Server Error: /article/get_article/1/
+Traceback (most recent call last):
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py", line 46, in get_article
+    Comment(
+  File "/Users/igor/Desktop/Python/django/django_basics/venv/lib/python3.11/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Comment() got unexpected keyword arguments: 'content'
+ERROR 2023-09-23 20:03:55,815 basehttp 4818 123145579290624 "POST /article/get_article/1/ HTTP/1.1" 500 72711
+INFO 2023-09-23 20:07:56,592 autoreload 4818 140704266647296 /Users/igor/Desktop/Python/django/django_basics/seminar01/firstproject/articlesapp/views.py changed, reloading.
+INFO 2023-09-23 20:07:57,472 autoreload 4997 140704266647296 Watching for file changes with StatReloader
+INFO 2023-09-23 20:08:09,568 basehttp 4997 123145540677632 "POST /article/get_article/1/ HTTP/1.1" 200 1847
+INFO 2023-09-23 20:08:25,412 basehttp 4997 123145540677632 "POST /article/get_article/1/ HTTP/1.1" 200 2001
+INFO 2023-09-23 20:08:42,695 basehttp 4997 123145540677632 "POST /article/get_article/1/ HTTP/1.1" 200 2173
+INFO 2023-09-23 20:08:53,132 basehttp 4997 123145540677632 "POST /article/get_article/1/ HTTP/1.1" 200 2324

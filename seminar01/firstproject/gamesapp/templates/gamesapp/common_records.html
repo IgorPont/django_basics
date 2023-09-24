@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+
+<div><h2>{{ title }}</h2></div>
+<div>
+    <ol>
+        {% for attempt in attempts %}
+        <li>{{ attempt }}</li>
+        {% endfor %}
+    </ol>
+</div>
+
+<footer>
+    <a href="#">Main</a>
+    <a href="#">About</a>
+</footer>
+</body>
+</html>

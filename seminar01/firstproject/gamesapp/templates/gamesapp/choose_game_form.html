@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+
+<div>
+    <h2>{{ title }}</h2>
+</div>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Choose">
+</form>
+
+<footer style="margin-top: 100px;">
+    <a href="/">Back to games</a>
+</footer>
+
+</body>
+</html>
