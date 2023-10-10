@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'about_me_app',
     'online_store_app',
     'articlesapp',
-    'debug_toolbar',
+    # 'debug_toolbar',
 ]
 
 MIDDLEWARE = [
